@@ -1,5 +1,5 @@
 FROM almalinux:9
 ENV author="Srikanth" \
     course="Docker"  \
-    duration="10hrs" \
+    duration="10hrs" 
 CMD ["sleep", "5"]
