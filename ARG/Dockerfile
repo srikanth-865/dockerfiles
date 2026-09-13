@@ -5,3 +5,4 @@ ARG course="docker" \
 ENV course=${course} \
     duration=${duration}
 RUN echo "course is ${course} and time is in ${duration} and version is ${version}"
+CMD [ "sleep", "110" ]
