@@ -4,4 +4,4 @@ ENV author="Srikanth" \
     duration="10hrs" 
 #by going inside container docker exec -it <container name> bash we see these values
 #as we use almalinux se we have to give manuually CMD command to run container otherwise it will not 
-CMD ["sleep", "60"] 
+CMD ["sleep", "120"] 
